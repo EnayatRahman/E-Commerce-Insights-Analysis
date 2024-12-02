@@ -151,3 +151,43 @@ WHERE rank_ = 1;
 - **Window Functions**: Used `RANK()` and `SUM() OVER()` for advanced analysis without collapsing the result set.
 - **Filtering and Grouping**: Employed `WHERE`, `GROUP BY`, and `HAVING` clauses to refine data analysis.
 - **Date Functions**: Analyzed recent sales trends using date filtering.
+
+## Overview:
+I led an analytical initiative for a simulated e-commerce marketing campaign, leveraging SQL to extract, transform, and analyze large datasets. This project focused on enhancing customer segmentation, product performance tracking, and revenue optimization.
+
+### Challenges Addressed:
+
+Identifying top-performing customers and products to refine marketing strategies.
+Streamlining revenue analysis to provide actionable insights for budget allocation.
+Improving inventory management by analyzing stock levels and order trends.
+Enhancing payment processing insights for smoother operations.
+Key Contributions:
+
+**Customer and Product Insights:**
+
+Identified top customers based on purchase frequency and spending, enabling targeted marketing.
+Analyzed the top five products by quantity sold, helping prioritize inventory allocation.
+Revenue Optimization:
+
+Calculated total revenue and average order value to assess campaign profitability.
+Highlighted customers with purchases exceeding $500 for potential loyalty program targeting.
+Operational Improvements:
+
+Determined the most frequently used payment methods, streamlining checkout processes.
+Monitored orders placed in the last seven days, identifying seasonal trends.
+Inventory and Supply Chain Analysis:
+
+Evaluated stock levels and highlighted unsold inventory for improved supply chain efficiency.
+Identified the product with the highest average order quantity to enhance production focus.
+Techniques and Tools:
+
+**SQL:** For querying and joining data from diverse sources (customers, orders, products, payments).
+
+**Advanced Functions:** Aggregation (SUM, COUNT, AVG), window functions (RANK, OVER).
+
+**Data Filtering:** Leveraged WHERE, GROUP BY, and HAVING clauses for focused analysis.
+
+**Date Functions:** Utilized interval calculations for tracking recent orders and trends.
+
+## Impact:
+This project provided a comprehensive blueprint for data-driven e-commerce strategies, enabling smarter decision-making in customer engagement, product marketing, and inventory management. It demonstrated how SQL-powered insights can enhance campaign outcomes and operational efficiency.
